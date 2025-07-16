@@ -1,3 +1,5 @@
+package com.example;
+
 public class Member {
     private final String id;
     private final String name;

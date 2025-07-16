@@ -1,3 +1,5 @@
+package com.example;
+
 public class Book {
     private final String id;
     private final String title;
