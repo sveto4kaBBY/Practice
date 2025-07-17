@@ -31,4 +31,8 @@ public class Loan {
         log.debug("Loan.toString() -> {}", repr);
         return repr;
     }
+
+    public boolean isOverdue() {
+        return LocalDate.now().isAfter(dueDate);
+    }
 }
